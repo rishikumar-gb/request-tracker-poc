@@ -188,3 +188,4 @@ def launch_api_server():
         return True, f"http://localhost:{allocated_port}"
     except Exception as e:
         return False, f"Server boot failure: {e}"
+
