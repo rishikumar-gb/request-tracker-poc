@@ -70,3 +70,4 @@ def update_request_status(base_url, request_id, new_status):
             return False, f"HTTP Error {err.code}: {err.reason}"
     except Exception as e:
         return False, f"API Communication Failure (PATCH /api/requests/{request_id}): {e}"
+
