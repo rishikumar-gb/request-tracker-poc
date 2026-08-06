@@ -205,3 +205,4 @@ def render_dashboard_page(api_base_url):
         with all_tabs[idx]:
             subset = [r for r in requests_data if str(r.get("status", "")).strip().title() == st_val]
             render_structured_table_rows(subset, tab_key_prefix=f"tab_{st_val.lower().replace(' ', '_')}")
+
