@@ -220,3 +220,4 @@ def render_badge(status):
     elif status_clean == "rejected":
         return '<div style="text-align: center;"><span class="badge badge-rejected">Rejected</span></div>'
     return f'<div style="text-align: center;"><span>{status}</span></div>'
+
