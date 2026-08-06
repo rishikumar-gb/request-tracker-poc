@@ -163,3 +163,4 @@ def update_request_status_db(req_id, new_status):
     finally:
         if conn:
             conn.close()
+
